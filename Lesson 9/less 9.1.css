@@ -1,0 +1,11 @@
+/*Урок 9. Сократите код, используя свойство-сокращение font:
+p {
+	font-family: "Times New Roman";
+	font-size: 13px;
+	line-height: 20px;
+}
+*/
+
+p {
+	font: 13px/20px "Tames new roman";
+}
