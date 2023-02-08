@@ -1,0 +1,16 @@
+/*18.3 Сократите код, используя свойство-сокращение font:
+
+p {
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: bold;
+	text-indent: 50px;
+	font-style: italic;
+	line-height: 60px;
+}*/
+
+p  {
+  font: italic bold 40px/60px "Arial";
+  text-indent: 50px;
+  color: red;
+}

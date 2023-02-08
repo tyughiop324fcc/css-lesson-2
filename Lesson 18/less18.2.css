@@ -1,0 +1,16 @@
+/* 18.2 Сократите код, используя свойство-сокращение font:
+
+p {
+	width: 300px;
+	font-family: Arial;
+	color: red;
+	font-size: 40px;
+	font-weight: bold;
+} */
+
+p  {
+  text-align: justify;/* добавил от себя для удобства*/
+  width: 300px;
+  color: red;
+  font: bold 40px "Arial";
+}
