@@ -1,0 +1,19 @@
+/*Дан следующий код:
+
+<h2 class="header">заголовок</h2>
+<h2 class="header">заголовок</h2>
+<h3 class="header">заголовок</h3>
+<h3 class="header">заголовок</h3>
+.header {
+	color: red;
+}
+
+Сделайте все h2 с классом header размером 40px, а все h3 с этим классом - размером 30px.*/
+
+h2.heder  {
+  font-size: 40px;
+}
+
+h3.heder  {
+  font-size: 30px;
+}

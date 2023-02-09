@@ -1,0 +1,50 @@
+/*Задание 1. Упростите код, используя группировку селекторов:
+.eee {
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: Arial;
+}
+.zzz {
+	font-size: 30px;
+	line-height: 1.5;
+	font-family: Arial;
+}
+*/
+
+/*Задание 2. Упростите код, используя группировку селекторов
+.eee {
+  font-syze: 20px;
+  text-align: center;
+  font-family: Arial;
+}
+.zzz {
+	font-size: 30px;
+	text-align: center;
+	font-family: Arial;
+}
+.ggg {
+	font-size: 35px;
+	text-align: center;
+	font-family: Arial;
+*/
+
+.eee, .zzz, .ggg {
+  text-align: center;
+  font-family: Arial;
+}
+
+.eee, .zzz  {
+  line-height: 1.5;
+}
+
+.eee  {
+  font-size: 20px;
+}
+
+.zzz  {
+  font-size: 30px;
+}
+
+.ggg  {
+  font-size: 35px;
+}
