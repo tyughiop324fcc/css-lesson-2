@@ -1,0 +1,13 @@
+/*Задание 2.
+Сделайте все ссылки во всех состояниях голубыми и неподчеркнутыми, а в состоянии :hover - красными и подчеркнутыми.
+*/
+
+a:link, a:visited, :active  {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover  {
+  color: red;
+  text-decoration: underline;
+}
