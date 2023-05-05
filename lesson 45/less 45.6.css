@@ -1,0 +1,9 @@
+/*
+6. Напишите селектор, который выберет все абзацы с атрибутом title, в значении которого есть слово "привет".
+*/
+
+p[title*="привет"]  {
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: blue;
+}

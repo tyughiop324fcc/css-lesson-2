@@ -1,0 +1,9 @@
+/*
+7. Напишите селектор, который выберет все абзацы с классом, который начинается на "top-"
+*/
+
+p[class|=top]  {
+  font-style: italic;
+  font-weight: bold;
+  color: crimson;
+}

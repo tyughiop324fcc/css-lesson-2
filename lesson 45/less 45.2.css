@@ -1,0 +1,8 @@
+/*
+2. Напишите селектор, который выберет все абзацы c атрибутом title. 
+*/
+
+p[title]  {
+  color: green;
+  font-style: italic;
+}
