@@ -1,0 +1,77 @@
+/* Задание 1.
+Концевые элементы
+*/
+.zzz li:first-child  {
+  color: red;
+}
+
+/* Задание 2.
+*/
+.xxx li:last-child  {
+  color: green;
+}
+
+/* Задание 3.
+*/
+.ccc li:first-child  {
+  color: red;
+}
+
+.ccc li:last-child  {
+  color: green;
+}
+
+/* Задание 4.
+Заданные элементы.
+*/
+.vvv li:nth-child(3)  {
+  color: red;
+}
+
+/* Задание 5.
+*/
+.bbb li:nth-child(even)  {
+  color: green;
+}
+
+.bbb li:nth-child(odd)  {
+  color: red;
+}
+
+/* Задание 6.
+*/
+.nnn li:nth-child(3n)  {
+  color: red;
+}
+
+/* Задание 7.
+Заданные элементы с конца.
+*/
+.ggg li:nth-last-child(2)  {
+  color: red;
+}
+
+/* Задание 8.
+Единственные потомки.
+*/
+.mmm li:only-child  {
+  color: red;
+}
+
+/* Задание 9.
+Пустые элементы.
+*/
+
+.aaa li {
+	border: 1px solid red;
+	list-style-type: circle;
+	color: black;
+	width: 100px;
+}
+
+.aaa li:empty {
+	border: 1px solid blue;
+	list-style-type: circle;
+	color: blue;
+	width: 100px;
+}
