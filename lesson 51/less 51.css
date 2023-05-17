@@ -1,0 +1,20 @@
+/* Задание 1.
+Повтормте страницу по данному образцу.*/
+
+#elem  {
+  width: 200px;
+  height: 200px;
+  background-color: #7e89eb;
+}
+
+/* Задание 2.
+Повторите страницу по данному образцу.*/
+
+#elem1  {
+  width: 300px;
+  height: 200px;
+  color: white;
+  background-color: #4cee99;
+  text-align: center;
+  font-size: 30px;
+}

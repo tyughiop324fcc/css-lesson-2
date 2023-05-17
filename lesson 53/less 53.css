@@ -1,0 +1,27 @@
+/* 1 Повторите страницу по данному образцу.*/
+#elem  {
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+/* 2 Повторите страницу по данному образцу*/
+#elem  {
+  width: 300px;
+  height: 200px;
+  border: 2px dotted blue;
+}
+
+/* 3 Повторите страницу по данному образцу*/
+#elem  {
+  width: 300px;
+  height: 200px;
+  border: 3px dashed green;
+}
+
+/* 4 Повторите страницу по данному образцу*/
+#elem  {
+  width: 300px;
+  height: 200px;
+  border: 5px double orange;
+}
