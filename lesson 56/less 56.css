@@ -1,0 +1,22 @@
+/*Четыре значения*/
+#elem  {
+  width: 200px;
+  height: 200px;
+  border: 1px solid green;
+  border-radius: 10px 30px 50px 60px;
+}
+/*Два значения*/
+#elem1  {
+  width: 200px;
+  height: 200px;
+  border: 1px solid green;
+  border-radius: 10px 30px;
+}
+/*Три значения*/
+#elem2  {
+  width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	border-radius: 10px 30px 20px;
+}
+
