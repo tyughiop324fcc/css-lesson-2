@@ -1,0 +1,14 @@
+/*Маркеры в виде квадратиков.*/
+#elem1 ul  {
+  list-style: square;
+}
+
+/*Маркеры в виде кружков.*/
+#elem2 ul  {
+  list-style: circle;
+}
+
+/*Маркеры отсутвуют.*/
+#elem3 ul  {
+  list-style: none;
+}
