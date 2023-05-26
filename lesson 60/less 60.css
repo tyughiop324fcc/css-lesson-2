@@ -1,14 +1,14 @@
 
 #elem1 ol  {
-  list-style-type: lower-alpha;
+  list-style-type: lower-alpha;/*делает нумерацию маленькими латинскими буквами*/
 }
 
 
 #elem2 ol  {
-  list-style-type: lower-greek;
+  list-style-type: lower-greek;/*делает нумерацию маленькими греческими буквами*/
 }
 
 
 #elem3 ol  {
-  list-style-type: upper-alpha;
+  list-style-type: upper-alpha;/*делает нумерацию большими латинскими буквами*/
 }

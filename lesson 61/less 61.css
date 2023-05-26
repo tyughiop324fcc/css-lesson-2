@@ -1,0 +1,30 @@
+/*Задание 1.*/
+#elem1  {
+  width: 400px;
+  border: 1px dotted blue;
+}
+
+#elem2  {
+  margin: 20px;
+  height: 300px;
+  border: 1px solid orange;
+}
+
+/*Задание 2.*/
+#elem3  {
+  margin: 25px;
+  width: 400px;
+  border: 1px dotted blue;
+}
+
+#elem4  {
+  margin: 25px;
+  border: 1px dotted green;
+}
+
+#elem5  {
+  margin: 25px;
+  height: 200px;
+  border: 1px solid red;
+
+}
