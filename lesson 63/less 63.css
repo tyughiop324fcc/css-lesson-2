@@ -1,0 +1,61 @@
+/*Задание 1*/
+#a11  {
+  width: 200px;
+  border: 1px solid orange;
+}
+
+#a22  {
+  height: 50px;
+  border: 1px dashed blue;
+  margin: 25px 50px 100px 10px;
+}
+
+/*Задание 2.*/
+#b11  {
+  width: 200px;
+  border: 1px solid orange;
+}
+
+#b22  {
+  height: 50px;
+  border: 1px dashed blue;
+  margin: 100px 50px;
+}
+
+/*Задание 3.*/
+
+#c11  {
+  width: 200px;
+  border: 1px solid orange;
+}
+
+#c22  {
+  height: 50px;
+  border: 1px dashed blue;
+  margin: 25px 50px;
+}
+
+
+/*Задание 4.*/
+#d11  {
+  width: 200px;
+  border: 1px solid orange;
+}
+
+#d22  {
+  height: 50px;
+  border: 1px dashed blue;
+  margin: 100px 50px 30px;
+}
+
+/*Задание 5.*/
+#e11  {
+  width: 400px;
+  border: 1px solid orange;
+}
+
+#e22  {
+  height: 50px;
+  border: 1px dashed blue;
+  margin: 30px 100px 50px;
+}

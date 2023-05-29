@@ -1,0 +1,25 @@
+/*Задание 1.*/
+
+#elem1  {
+  padding: 50px;
+  width: 200px;
+  border: 1px solid red;
+  text-align: justify;
+}
+
+/*Задание 2.*/
+
+.elem2 #aswe  {
+  padding: 20px;
+  width: 500px;
+  border: 1px solid green;
+  text-align: justify;
+}
+
+.elem2 #qwer  {
+  padding: 10px;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid red;
+  text-align: justify;
+}
