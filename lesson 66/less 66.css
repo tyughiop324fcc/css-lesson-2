@@ -1,0 +1,26 @@
+/**/
+#elem1  {
+  padding: 10px 20px 30px 40px;
+
+  width: 300px;
+  border: 1px solid red;
+  text-align: justify;
+}
+
+/**/
+#elem2  {
+  padding: 60px 30px;
+
+  width: 300px;
+  border: 1px solid red;
+  text-align: justify;
+}
+
+/**/
+#elem3  {
+  padding: 10px 20px 40px;
+
+  width: 300px;
+  border: 1px solid red;
+  text-align: justify;
+}

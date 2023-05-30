@@ -1,0 +1,17 @@
+/*Самостоятельная работа со свойством box-sizing*/
+
+#elem1  {
+  width: 500px;
+  height: 500px;
+  background: lawngreen;
+  margin-bottom: 30px;
+}
+
+#elem2  {
+  width: 500px;
+  height: 500px;
+  background: lawngreen;
+  padding: 40px;
+  border: 20px solid salmon;
+  box-sizing: border-box;
+}
