@@ -1,0 +1,7 @@
+/*Несколько блочных элементов рядом*/
+div  {
+  width: 100px;
+  height: 300px;
+  margin-bottom: 30px;
+  border: 2px dotted darkblue;
+}

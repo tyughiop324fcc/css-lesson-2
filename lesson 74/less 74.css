@@ -1,0 +1,39 @@
+/*Задание 1.
+Поставьте ссылки по центру дива.*/
+
+.elem  {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+
+a.elem  {
+  border: 1px solid green;
+}
+
+/*Задание 2.
+Поставьте ссылку по правому краю.*/
+
+.elem2  {
+  text-align: right;
+  padding: 10px 0;
+  border: 1px solid red;
+  margin: 30px;
+}
+
+a.elem2  {
+  border: 1px solid green;
+}
+
+/*Задание 3.
+Модифицируйте прошлую задачу так, чтобы ссылка не прижималась плотно к правому краю. Для этого родительскому элементу добавьте правый padding.*/
+
+.elem3  {
+  text-align: right;
+  padding-right: 10px;
+  border: 1px solid red;
+}
+
+a.elem3  {
+  border: 1px solid green;
+}

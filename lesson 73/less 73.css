@@ -1,0 +1,26 @@
+
+
+.elem  {
+  border: 1px solid red;
+}
+
+#elem1  {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+  margin: 10px auto;
+}
+
+#elem2  {
+  width: 200px;
+  height: 100px;
+  border: 1px solid green;
+  margin: 10px auto;
+}
+
+#elem3  {
+  width: 300px;
+  height: 100px;
+  border: 1px solid green;
+  margin: 10px auto;
+}

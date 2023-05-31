@@ -1,0 +1,22 @@
+/*Задание 1.
+Сделайте так чтобы абзацы вели себя как строчные элементы.*/
+
+p  {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  border: 2px solid rebeccapurple;
+  margin-bottom: 20px;
+}
+
+
+/*задание 2.
+Сделайте так чтобы ссылки вели себя как блочные элементы.*/
+
+a  {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 3px dotted lawngreen;
+  margin-bottom: 30px;
+}
