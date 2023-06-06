@@ -1,0 +1,66 @@
+/*Задание 1
+Значение center.*/
+.parent1  {
+  width: 900px;
+  height: 400px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+
+.child1  {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+
+/*Задание 2.
+Значение space-between.*/
+.parent2  {
+  width: 900px;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.child2  {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+
+/*Задание 3.
+Значение space-around.*/
+.parent3  {
+  width: 900px;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+
+.child3  {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
+
+
+/*Задание 5.
+Значение space-evenly.*/
+.parent4  {
+  width: 900px;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.child4  {
+  width: 120px;
+  height: 60px;
+  border: 1px solid green;
+}
