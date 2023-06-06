@@ -1,0 +1,29 @@
+/*Задание 2.
+Повторите страницу по заданному образцу.*/
+#parent  {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #4dee99;
+}
+
+#child1  {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
+
+#child2  {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}

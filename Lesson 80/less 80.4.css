@@ -1,0 +1,52 @@
+/*Задание 4.
+Повторите страницу по заданному образцу.*/
+#parent  {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #4dee99;
+  border-radius: 50%;
+}
+
+#child1  {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#child2  {
+  position: absolute;
+  top: 70px;
+  right: 100px;
+
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%
+}
+
+#child3  {
+  position: absolute;
+  top: 200px;
+  left: 215px;
+
+  width: 75px;
+  height: 75px;
+  background-color: #fff;
+}
+
+#child4  {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+
+  width: 200px;
+  height: 20px;
+  background-color: #fff;
+}
