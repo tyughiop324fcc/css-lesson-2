@@ -1,0 +1,83 @@
+/*Задание 1.
+Преобразуйте дивы-потомки в строчно-блочные элементы, задайте им горизонтальный margin в 5рх, а за тем отцентрируйте их по горизонтали относитрельно своего родителя. */
+.parent1  {
+  text-align: center;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+.child1  {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid green;
+  margin: 5px 0;
+}
+
+/*Задание 2.
+Преобразуйте див-потомок в строчно-блочный элемент, заттем выровняйте его по правому краю.*/
+.parent2  {
+  text-align: right;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+.child2  {
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block;
+}
+
+/*Задание 3.
+Модифицируйте предыдущую задачу так, чтобы он не прижимался к правому краю. Для этого родительскому элементу добавьте правый padding.*/
+.parent3  {
+  text-align: right;
+  padding-right: 10px;
+  border: 1px solid red;
+}
+.child3  {
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block;
+}
+
+/*Задание 4.
+Модифицируйте предыдущую задачу так, чтобы див не прижимался плотно к правому краю. Для этого элементу потомку посставьте правый margin.*/
+.parent4  {
+  text-align: right;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+.child4  {
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+/*Задание 5.
+Преобразуйте ссылку в строчно-блочный элемент, затем выровняйте его по правому краю родителя*/
+.parent5  {
+  text-align: right;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+.child5  {
+  width: 100px;
+  padding: 10px ;
+  border: 1px solid green;
+  display: inline-block;
+}
+
+/*Задание 6.
+Модифицируйте предыдущую задачу так, чтобы текст внутри ссылки был выровнен по центру этой ссылки.*/
+.parent6  {
+  text-align: right;
+  padding: 10px 0;
+  border: 1px solid red;
+}
+.child6  {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid green;
+  display: inline-block;
+  text-align: center;
+}
