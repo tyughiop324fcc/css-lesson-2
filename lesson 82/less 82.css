@@ -1,0 +1,81 @@
+/*Три блока без позиционирования.*/
+#elem1 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+}
+#elem2 {
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	border: 1px solid green;
+}
+#elem3 {
+	width: 50px;
+	height: 150px;
+	border: 1px solid blue;
+}
+
+/*Добавляем зелёному блоку absolute.*/
+#elem4 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+}
+#elem5 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	border: 1px solid green;
+}
+#elem6 {
+	width: 50px;
+	height: 150px;
+	border: 1px solid blue;
+}
+
+/*Добавляем свойство left, не добавляя позицию по вертикали.*/
+#elem7 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+}
+#elem8 {
+	position: absolute;
+	left: 40px; /* добавляем позицию по 
+		горизонтали */ 
+	
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	border: 1px solid green;
+}
+#elem9 {
+	width: 50px;
+	height: 150px;
+	border: 1px solid blue;
+}
+
+
+/*Добавляем свойство top, не добавляя позицию по горизонтали.*/
+#elem10 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+}
+#elem11 {
+	position: absolute;
+	top: 100px; /* добавляем позицию по 
+		вертикали */ 
+	
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+	border: 1px solid green;
+}
+#elem12 {
+	width: 50px;
+	height: 150px;
+	border: 1px solid blue;
+}
