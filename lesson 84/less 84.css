@@ -1,0 +1,29 @@
+/*В следующем образце зелёный блок стоит по центру экрана с помощью margin, а красные блоки позиционируются тносительно него. Повториите страницу по приведённому образцу.*/
+
+#elem  {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 100px;
+  border: 1px solid green;
+}
+
+#elem1  {
+  position: absolute;
+  top: 0px;
+  left: -50px;
+
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+}
+
+#elem2  {
+  position: absolute;
+  top: 0px;
+  right: -50px;
+
+  width: 30px;
+  height: 30px;
+  border: 1px solid red;
+}

@@ -1,0 +1,24 @@
+/*Cделайте блок, находящийся по центру экрана и отступающий со всех сторон по 100px.
+*/
+
+#elem {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  bottom: 100px;
+  left: 100px;
+
+  border: 1px solid green;
+}
+
+/*сделайте блок, отступающий сверху от края экрана 100px, справа - 200px, снизу - 50px, а слева - 10px.
+*/
+#elem1  {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  bottom: 50px;
+  left: 10px;
+
+  border: 1px solid red;
+}
