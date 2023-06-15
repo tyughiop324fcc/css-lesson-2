@@ -1,0 +1,51 @@
+/*Задание 1.
+Повторите страницу по заданному образцу.*/
+.parent  {
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+.child  {
+  width: 100px;
+  height: 50px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.clearfix  {
+  clear: both;
+}
+
+
+/*Задание 2.
+Повторите страницу по заданному образцу.
+*/
+.parent1  {
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+.child1  {
+  width: 100px;
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.clearfix1  {
+  clear: both;
+}

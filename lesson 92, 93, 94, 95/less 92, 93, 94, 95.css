@@ -1,0 +1,58 @@
+/*Теория.
+Плавающие элементы под тегами.
+*/
+.elem  {
+  border: 1px solid red;
+  text-align: justify;
+  margin-bottom: 150px;
+}
+
+#aaaa  {
+  border: 1px solid green;
+}
+
+#elem  {
+  float: right;
+  margin-bottom: 10px;
+}/*Картинку обтекают только те элементы которые находятся под ней, а не те которые наъодятся над ней.*/
+
+
+
+/*Теория.
+действия флоатов на родителя.*/
+.elem1  {
+  text-align: justify;
+  border: 1px solid red;
+}
+
+#elem1  {
+  float: left;
+}/*если в диве достаточно текста и по высоте он будет выше картинки то она не будет налезать на второй див.*/
+
+
+/*Теория.
+Отмена обтекания с помощью свойства clear.*/
+.parent  {
+  border: 1px solid red;
+}
+.parent #elem2  {
+  float: left;
+}
+
+.clearfix  {
+  clear: both;
+}
+
+
+/*Теория.
+Клеарфикс и высота родителя.*/
+.parent1  {
+  border: 1px solid red;
+}
+.parent1 #elem3  {
+  float: left;
+}
+
+.clearfix1  {
+  clear: both;
+}

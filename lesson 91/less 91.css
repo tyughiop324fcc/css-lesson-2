@@ -1,0 +1,24 @@
+/*Задание.
+Повторите страницу по данному образцу.
+*/
+div  {
+  width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+#elem  {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+#elem1  {
+  float: right;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+

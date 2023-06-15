@@ -1,0 +1,114 @@
+/*Задание 1.
+повторите траницу по заданному образцу.*/
+.aaa #elem1  {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  width: 50px;
+  height: 50px;
+  background: #ff8888;
+
+  z-index: 1;
+}
+
+.aaa #elem2  {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+
+  width: 50px;
+  height: 50px;
+  background: #7e89eb;
+
+  z-index: 3;
+}
+
+.aaa #elem3  {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+
+  width: 50px;
+  height: 50px;
+  background: #4dee99;
+
+  z-index: 2;
+}
+
+
+
+/*Задание 2.
+повторите траницу по заданному образцу.*/
+.bbb #elem1  {
+  position: absolute;
+  top: 230px;
+  left: 30px;
+
+  width: 50px;
+  height: 50px;
+  background: #ff8888;
+
+  z-index: 3;
+}
+
+.bbb #elem2  {
+  position: absolute;
+  top: 260px;
+  left: 60px;
+
+  width: 50px;
+  height: 50px;
+  background: #7e89eb;
+
+  z-index: 2;
+}
+
+.bbb #elem3  {
+  position: absolute;
+  top: 290px;
+  left: 90px;
+
+  width: 50px;
+  height: 50px;
+  background: #4dee99;
+
+  z-index: 1;
+}
+
+
+
+
+/*Задание 3.
+повторите траницу по заданному образцу.*/
+.ccc #elem1  {
+  position: absolute;
+  top: 430px;
+  left: 30px;
+
+  width: 50px;
+  height: 50px;
+  background: #ff8888;
+}
+
+.ccc #elem2  {
+  position: absolute;
+  top: 460px;
+  left: 60px;
+
+  width: 50px;
+  height: 50px;
+  background: #7e89eb;
+
+  z-index: -1;
+}
+
+.ccc #elem3  {
+  position: absolute;
+  top: 490px;
+  left: 90px;
+
+  width: 50px;
+  height: 50px;
+  background: #4dee99;
+}

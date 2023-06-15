@@ -1,0 +1,23 @@
+/*Повторите ссылку по данному образцу.*/
+
+#elem  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #c4cd14;
+  text-align: center;
+  line-height: 50px;
+  font-size: 21px;
+  color: white;
+  border-bottom: #a3aa11;
+}
+
+#content  {
+  margin: 0 auto;
+  width: 300px;
+  text-align: justify;
+  font: 16px Arial;
+  margin-top: 100px;
+}
