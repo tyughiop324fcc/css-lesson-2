@@ -1,60 +1,184 @@
+/*Теория по главной и поперечной оси в flex боксах.*/
+
 /*Задание 1.
 Пусть главная ось горизонтальна. Куда будет направленна поперечная ось? 
 
 Сверху-вниз.
 */
+.parent  {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 
 /*Задание 2.
 Пусть главная ось вертикальна. Куда будет направленна поперечная ось?
 
 Слева-направо.
 */
+.parent1  {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child1  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 3.
 Пусть поперечная ось направлена направо. Куда в таком случае будет направлена главная ось?
 
 Вертикально.
 */
+.parent2  {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child2  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 4.
 Пусть поперечная ось направленна вниз. Куда в таком случае будет направленна галавная ось?
 
 Горизонтально.
 */
+.parent3  {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child3  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 5.
-Может лии поперечная ось быть направленна на право?
+Может ли поперечная ось быть направленна на право?
 
 Нет.
 */
+.parent4  {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child4  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 6.
-Может ли поперечнаяось быть направленна снизу вверх?
+Может ли поперечная ось быть направленна снизу вверх?
 
 Нет.
 */
+.parent5  {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child5  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 7.
 Пусть свойстве flex-diretion имеет значение row. Куда будет направленна главная ось? куда будет направленна поперечная ось?
 
 Главная ось с лево-направо. Поперечная сверху-вниз.
 */
+.parent6  {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.child6  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 
 /*Задание 8.
 пусть свойство flex-diretion имеет значение collumn. Куда будет направленна главная ось? Куда будет направленна поперечная ось?
 
 Главная ось будет направленна сверху-вниз, поперечная ось слево-направо.
 */
+.parent7  {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child7  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 9.
 Пусть свойство flex-direction имеет заначение row-revers. Куда будет направленна главная ось? Куда будет направленна поперечная ось?
 
 Главная ось будет направленна справа-налево, поперечная с сверху-вниз.
 */
+.parent8  {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
 
+.child8  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
 /*Задание 10.
 Пусть свойство flex-direction имеет значение collumn-revers. Куда будет напревленна главная ось? Куда будет направленна поперечная ось.
 
 Главная ось будет направленна снизу-вверх,поперечная слево-направо.
 */
+.parent9  {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.child9  {
+  width: 50px;
+  height: 50px;
+  border: 1px solid green;
+}
