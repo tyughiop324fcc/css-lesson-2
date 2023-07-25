@@ -1,0 +1,57 @@
+/*Повторите страницу по заданному образцу.
+*/
+.parent1  {
+  width: 900px;
+  height: 400px;
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.child1  {
+  width: 120px;
+  border: 1px solid green;
+}
+
+
+/*Повторите странницу по данному образцу.
+*/
+
+.parent2  {
+  width: 900px;
+  height: 400px;
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.child2  {
+  height: 40px;
+  border: 1px solid green;
+}
+
+
+/*Повторите страницу по данному образцу.
+*/
+
+.parent3  {
+  width: 900px;
+  height: 400px;
+  border: 1px solid red;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.child3  {
+  height: 40px;
+  border: 1px solid green;
+}
